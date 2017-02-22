@@ -91,7 +91,7 @@ $(document).ready(function() {
                 }
                 if (currentOperator === '÷') {
                     if (Number(numArr[1]) == 0) {
-                        displayText = 'Undefined';
+                        displayText = 'Error';
                         $screen.text(displayText);
                       }  else {
                             displayText = Number(numArr[0]) / Number(numArr[1]).toFixed(6);
